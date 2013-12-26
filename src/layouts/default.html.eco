@@ -43,8 +43,7 @@
 <div class="content pure-g-r">
 	<div class="header pure-u-1">
 		<div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
-			<a class="pure-menu-heading" href="/">Your Site</a>
-
+			<a class="pure-menu-heading" href="/">bshares <sub>beta</sub></a>
 			<ul>
 				<li class="pure-menu-selected"><a href="/">Home</a></li>
 				<li><a href="#">Tour</a></li>
@@ -54,15 +53,16 @@
 					</li>
 				<% end %>
 			</ul>
+			<a class="right" href="/register">Register</a>
+			<a class="right" href="/login">Login</a>
 		</div>
 	</div>
 
 	<%- @content %>
 
 	<div class="footer pure-u-1">
-		View the source of this layout to learn more. Made with love by the YUI Team. 
-		&copy; Company <%- (new Date()).getFullYear() %>.
-		This website was last updated at <%= @site.date.toISOString() %>
+		&copy;<%- (new Date()).getFullYear() %> bshares.co <br/>
+		updated <%= @site.date.toISOString() %>
 	</div>
 </div>
 
