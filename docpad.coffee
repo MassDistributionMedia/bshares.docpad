@@ -18,16 +18,16 @@ docpadConfig = {
 			oldUrls: []
 
 			# The default title of our website
-			title: "bshares.co"
+			title: "bSHARES.co"
 
 			# The website description (for SEO)
 			description: """
-				
+				Helping people learn about and invest in bitcoin.
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				
+				bitcoin, CEX.io, bitcoin mining, cloud mining 
 				"""
 
 			# The website author's name

@@ -2,6 +2,7 @@ body {
     margin: 0 auto;
     line-height: 1.7em;
     overflow-x:hidden;
+    background: url(https://googledrive.com/host/0B9LVk4xbDIJTOUNoc3BzSF9idzg/bitcoin-stock-01.jpg) 618px -1311px;
 }
 
 .l-box {
@@ -100,8 +101,12 @@ body .primary-button {
         font-weight: normal;
     }
 
+.darkgrey{
+    color: #333;
+}
+
 .footer {
-    background: url(https://cex.io/img/signup-icon-1.png) turquoise;
+    background: url(https://googledrive.com/host/0B9LVk4xbDIJTOUNoc3BzSF9idzg/signup-icon-1.png) #333;
     color: #fff;
     text-align: center;
     padding: 1em;
