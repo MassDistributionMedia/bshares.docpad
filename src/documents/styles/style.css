@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
     line-height: 1.7em;
+    overflow-x:hidden;
 }
 
 .l-box {
@@ -21,10 +22,30 @@ body {
             border: none;
             color: #aaa;
         }
+        .pure-menu .pure-menu-heading{
+            text-transform: none;
+        }
+
+.block{
+    display: block;
+}
 
 .right{
     float: right;
 }
+    .left{
+        float: left;
+    }
+    .text-left{
+        text-align: left;
+    }
+    .center{
+        text-align: center;
+    }
+    .auto{
+        margin: auto;
+    }
+
 .orange-bg{
     background: orange !important;
 }
@@ -86,3 +107,6 @@ body .primary-button {
     padding: 1em;
     font-size: 80%;
 }
+    .cloudflare-badge{
+        margin: 13px 33px 0 0;
+    }
