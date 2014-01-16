@@ -75,7 +75,10 @@ body .primary-button {
         font-size: 150%;
     }
 
-
+.content, div, .pure-u-1, .pure-u-1-2, p, span, h1{
+    font-weight: 400; 
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
 .content .content-subhead {
     color: #999;
     padding-bottom: 0.3em;
@@ -101,7 +104,7 @@ body .primary-button {
         font-weight: normal;
     }
 
-.darkgrey{
+.darkgrey, sub{
     color: #333;
 }
 
