@@ -110,3 +110,8 @@ body .primary-button {
     .cloudflare-badge{
         margin: 13px 33px 0 0;
     }
+
+::-webkit-scrollbar{width:17px;background:#fff;}
+::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.2);}
+::-webkit-scrollbar-thumb{background:rgba(102,51,0,0.2);-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.2);}
+::-webkit-scrollbar-thumb:window-inactive{background:rgba(216,210,206,0.3);}
