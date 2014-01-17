@@ -9,6 +9,10 @@ body {
     padding: 1em;
 }
 
+.main-cont{
+    width:577px;
+}
+
 .header {
     margin: 0 0;
 }
