@@ -3,7 +3,16 @@ layout: 'default'
 title: 'What is Bitcoin?'
 ---
 
-<div class="pure-u-1-2 center main-cont block auto">
+<div id ="whatmenu" class="what-menu">
+	<ul>
+		<li><a href="#top">What is Bitcoin?</a></li>
+		<li><a href="#accordions">Get Cloud Mining!</a></li>
+		<li><a id="storyLink" href="#story">My Bitcoin Story</a></li>
+	</ul>
+</div>
+
+
+<div id="top" class="pure-u-1-2 center main-cont block auto">
 <br/>
 <a target="_blank" href="https://github.com/MassDistributionMedia/bshares.docpad"><img class="github-ribbon" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
 <br/>

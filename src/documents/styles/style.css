@@ -128,6 +128,40 @@ body .primary-button {
     font-family: monospace;
 }
 
+.what-menu{
+    opacity: 0;
+    position: fixed;
+    top: 80px;
+    left: -43px;
+    padding: 5px 16px 2px;
+    border: 1px solid #13754D;
+    border-top: none;
+    border-bottom-right-radius: 13px;
+    background: rgba(255, 255, 255, 0.333);
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+    .what-menu:hover{
+        -webkit-transition: 0s;
+        transition: 0s;
+        opacity: 1;
+        background: rgba(255, 255, 255, 0.355);
+    }
+    .show-what-menu{
+        opacity: 0.444;
+    }
+    .what-menu li{
+        list-style: none;
+        padding: 3px 0;
+    }
+        .what-menu li:hover{
+            opacity: 1;
+        }
+        .what-menu li a:hover{
+            color: #13754D;
+            font-weight: bold;
+        }
+
 #headerLogo{
     opacity: 0.444;
     width: 132px;

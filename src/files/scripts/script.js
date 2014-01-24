@@ -6,37 +6,52 @@ YUI({
         'anim-base',
         'node-focusmanager','node','event',
 function(Y)
-{
-        /*
+{       
+        // mouseenter & leaves ->
+        var whatmenu = Y.all('#whatmenu');
+
+        // bshares header logo mouse
+        Y.all('#headerLogo').on('mouseenter', function(){
+                Y.all('.what-menu').setStyle('opacity', 1);
+                whatmenu.addClass('show-what-menu');
+                Y.one('#headerLogo').setStyle('opacity', 0.888);
+        });
+        Y.all('#headerLogo').on('mouseleave', function(){
+                Y.one('.what-menu').setStyle('opacity',0.444);
+                whatmenu.removeClass('show-what-menu');
+                Y.one('#headerLogo').setStyle('opacity', 0.444);
+        });
+        //bshares menu mouse
+        Y.all('.what-menu').on('mouseenter', function(){
+                Y.one('.what-menu').setStyle('opacity', 1);
+                Y.one('#headerLogo').setStyle('opacity', 1);
+        });
+        Y.all('.what-menu').on('mouseleave', function(){
+                Y.one('.what-menu').setStyle('opacity', 0.444);
+                whatmenu.removeClass('show-what-menu');
+                Y.one('#headerLogo').setStyle('opacity', 0.444);
+        });
+
         function scrolledPast(){
-                Y.all('.video-header').addClass('main-header-scrolled');
-                Y.all('#iconmonstrNav > svg').addClass('iconmonstr-head-nav-scrolled');
-                Y.all('#phone').addClass('phone-scrolled');
-                Y.all('#head-nav').addClass('head-nav-scrolled');
-                Y.all('#logoSVG').addClass('logoSVG-scrolled');
-                Y.one('.mobile-menu').setStyle('margin', '-2px 0 0 0');
+                whatmenu.addClass('show-what-menu');
         }
 
         function scrolledTop(){
-                Y.all('.video-header').removeClass('main-header-scrolled');
-                Y.all('#iconmonstrNav > svg').removeClass('iconmonstr-head-nav-scrolled');
-                Y.all('#phone').removeClass('phone-scrolled');
-                Y.all('#head-nav').removeClass('head-nav-scrolled');
-                Y.all('#logoSVG').removeClass('logoSVG-scrolled');
-                Y.one('.mobile-menu').setStyle('margin', '14px 0 0 0');
+                whatmenu.removeClass('show-what-menu');       
         }
 
+        /*
         Y.one('.video-header').on({
-                mouseover : function(){ if(document.body.scrollTop > 111) scrolledTop();},
-                mouseout  : function(){ if(document.body.scrollTop > 111) scrolledPast();}
+                mouseover : function(){ if(document.body.scrollTop > 571) scrolledTop();},
+                mouseout  : function(){ if(document.body.scrollTop > 571) scrolledPast();}
         });
+        */
 
         Y.on('scroll', function(){
-                document.documentElement.scrollTop || document.body.scrollTop < 111 ?
+                document.documentElement.scrollTop /* || document.body.scrollTop */ < 292 ?
                         scrolledTop()
                 :   scrolledPast();
         });
-        */
 
         /*
         Y.on('domready', function()
@@ -143,13 +158,13 @@ function(Y)
                 Y.one('.job-inner').ancestor().addClass('job-title');
                 // accordion end
 
-                /*
-                Y.one('#careerNav').on('click', function(){
-                        if(Y.one('.job-title').hasClass('yui3-accordion-closed')){
-                                Y.one('.job-vert').simulate('click');
+                
+                Y.one('#storyLink').on('click', function(){
+                        if(Y.one('.mission-title').hasClass('yui3-accordion-closed')){
+                                Y.one('.mission-vert').simulate('click');
                         }
                 });
-                */
+                
 
         });
 });
