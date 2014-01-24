@@ -124,6 +124,9 @@ body .primary-button {
 .bshares-green{
     color: #13754D;
 }
+.monospace{
+    font-family: monospace;
+}
 
 #headerLogo{
     opacity: 0.444;
