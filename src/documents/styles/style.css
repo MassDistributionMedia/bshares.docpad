@@ -121,6 +121,10 @@ body .primary-button {
     border-bottom: 1px solid #eee;
 }
 
+.bshares-green{
+    color: #13754D;
+}
+
 #headerLogo{
     opacity: 0.444;
     width: 132px;
