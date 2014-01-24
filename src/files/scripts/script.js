@@ -13,13 +13,17 @@ function(Y)
         // bshares header logo mouse
         Y.all('#headerLogo').on('mouseenter', function(){
                 Y.all('.what-menu').setStyle('opacity', 1);
-                whatmenu.addClass('show-what-menu');
                 Y.one('#headerLogo').setStyle('opacity', 0.888);
         });
         Y.all('#headerLogo').on('mouseleave', function(){
-                Y.one('.what-menu').setStyle('opacity',0.444);
-                whatmenu.removeClass('show-what-menu');
-                Y.one('#headerLogo').setStyle('opacity', 0.444);
+                document.documentElement.scrollTop < 292 ?
+                        whatmenu.setStyle('opacity',0)
+                :   whatmenu.setStyle('opacity',0.444);
+
+                document.documentElement.scrollTop < 292 ?
+                        Y.one('#headerLogo').setStyle('opacity', 0.444)
+                :   Y.one('#headerLogo').setStyle('opacity', 0.888);
+                // Y.one('#headerLogo').setStyle('opacity', 0.444);
         });
         //bshares menu mouse
         Y.all('.what-menu').on('mouseenter', function(){
@@ -27,16 +31,23 @@ function(Y)
                 Y.one('#headerLogo').setStyle('opacity', 1);
         });
         Y.all('.what-menu').on('mouseleave', function(){
-                Y.one('.what-menu').setStyle('opacity', 0.444);
-                whatmenu.removeClass('show-what-menu');
-                Y.one('#headerLogo').setStyle('opacity', 0.444);
+                document.documentElement.scrollTop < 292 ?
+                        whatmenu.setStyle('opacity',0)
+                :   whatmenu.setStyle('opacity',0.444);
+
+                document.documentElement.scrollTop < 292 ?
+                        Y.one('#headerLogo').setStyle('opacity', 0.444)
+                :   Y.one('#headerLogo').setStyle('opacity', 0.888);
+                // Y.one('#headerLogo').setStyle('opacity', 0.444);
         });
 
         function scrolledPast(){
+                Y.one('#headerLogo').setStyle('opacity',0.888);
                 whatmenu.addClass('show-what-menu');
         }
 
         function scrolledTop(){
+                Y.one('#headerLogo').setStyle('opacity',0.444);
                 whatmenu.removeClass('show-what-menu');       
         }
 

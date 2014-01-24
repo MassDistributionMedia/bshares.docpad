@@ -148,7 +148,10 @@ body .primary-button {
         background: rgba(255, 255, 255, 0.355);
     }
     .show-what-menu{
-        opacity: 0.444;
+        opacity: 1 !important;
+    }
+    .show-what-menu:hover{
+        opacity: 1 !important;
     }
     .what-menu li{
         list-style: none;
