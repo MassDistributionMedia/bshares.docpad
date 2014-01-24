@@ -43,8 +43,10 @@
 <!-- Markup -->
 <div class="content pure-g-r">
 	<div class="header pure-u-1">
+		<a href="http://bshares.co/what-is-bitcoin/">
 		<h1 id="headerLogo" class="logo"><i>b</i><strong>SHARES</strong></h1>
-
+		</a>
+		
 	<%- @content %>
 
 		</div>
