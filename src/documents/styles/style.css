@@ -1,5 +1,5 @@
 body {
-    color: #333;
+    color: #1E3E1F;
     margin: 0 auto;
     line-height: 1.7em;
     overflow-x:hidden;
@@ -121,19 +121,26 @@ body .primary-button {
     border-bottom: 1px solid #eee;
 }
 
-.logo{
+#headerLogo{
     opacity: 0.444;
     width: 132px;
-    border: 1px solid #999;
+    border: 1px solid #13754D;
     padding: 22px 22px 22px 13px;
     margin: 0;
     border-bottom-right-radius: 13px;
-    border-top: 8px solid #00E5FF;
+    border-top: 8px solid #50CCD1;
     position: fixed;
     background: rgba(255, 255, 255, 0.333);
 }
-    .logo:hover{
+    #headerLogo:hover{
         opacity: 0.888;
+    }
+    .logo strong{
+        color: #13754D;
+    }
+    .logo i{
+        color: #9B850D;
+        font-family: ar;
     }
 
 .github-ribbon{
@@ -155,8 +162,10 @@ body .primary-button {
     }
 
 .yt-embed{
-    padding: 9px 0 0;
-    border-radius: 13px;
+    border: 3px solid #13754D;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-top: 8px solid #ABA049;
     background: url(https://googledrive.com/host/0BxIxK0gS2WsvcFRFUHZYQ2J0SnM/hexabump.png);
 }
     .yt-embed sub{
@@ -175,13 +184,23 @@ body .primary-button {
 
 .message{
     margin: 0 auto;
-    border: 1px solid #999;
+    border: 1px solid #13754D;
     display: block;
     background: rgba(255, 255, 255, 0.64);
     border-bottom-right-radius: 13px;
     border-bottom-left-radius: 13px;
     padding: 33px;
-    border-top: 8px solid #00E5FF;
+    border-top: 8px solid #50CCD1;
+}
+
+.mikeumus-pic{
+    border-radius: 186px;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    height: 113px !important;
+    z-index: -1;
+    right: -47px;
 }
 
 .bitcoin-b{
