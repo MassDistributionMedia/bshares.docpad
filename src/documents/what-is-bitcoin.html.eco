@@ -1,0 +1,27 @@
+---
+layout: 'default'
+title: 'What is Bitcoin?'
+---
+
+<div class="pure-u-1-2 center main-cont block auto">
+<br/>
+<a target="_blank" href="https://github.com/MassDistributionMedia/bshares.docpad"><img class="github-ribbon" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+<br/>
+<div class="video-header">
+	<h1 class="darkgrey">What is <span class="bitcoin-yt bshare-gold"><%- @partial('bitcoin') %><strong>Bitcoin</strong></span> to begin with?</h1>
+	<div class="center yt-embed pure-u-1">
+	<iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/LP4GSvQUtBw?rel=0" frameborder="0" allowfullscreen></iframe>
+	<sub>Bitcoin is complex to understand fully but here's a explanation in detail: <a target="_blank" href="http://youtu.be/Lx9zgZCMqXE">youtu.be/Lx9zgZCMqXE</a></sub>
+	</div>
+</div>
+
+<%- @partial('accord') %>
+
+<br/><br/>
+</div>
+	<div class="pure-u-2-3 text-left message">
+	This website is open-source on <a target="_blank" href="https://github.com/MassDistributionMedia/bshares.docpad">GitHub</a>. I am doing this to share this great opportunity but mostly for people to sign up with my CEX affiliate link. The value this product currently offers is in bringing this opportunity to your attention and that I'm paying for Facebook Ads to do so. bSHARES will become much more than this is the intension. I've never released something so feeble before, I just really wanted to get this online for you. We'll be doing bitcoin consultation as one of our main offerings so if you have any questions, simply tweet to <a target="_blank" href="https://twitter.com/bshares_co">@bshares_co</a>
+	</div>
+	<p class="center">Cheers!</p>
+	<br/>
+</div>

@@ -3,12 +3,9 @@
   "version": "0.0.1",
   "description": "",
   "keywords": [
-    "docpad",
-    "website",
-    "purecss",
-    "yui purecss",
-    "bitcoin",
-    "bitcoin exchange"
+    "docpad", "website",
+    "purecss", "yui purecss",
+    "bitcoin", "bitcoin exchange", "learn bitcoin", "invest bitcoin"
   ],
   "author": "Mass Distribution Media <mike@mdm.cm> (http://mdm.cm)",
   "maintainers": [
@@ -38,14 +35,14 @@
     "docpad-plugin-text": "2.x"
   },
   "devDependencies": {
-    "docpad-plugin-livereload": "~2.5.5",
+    "docpad-plugin-livereload": "~2.5.6",
     "docpad-plugin-coffeescript": "~2.2.3",
-    "docpad-plugin-marked": "~2.1.2",
+    "docpad-plugin-marked": "~2.2.0",
     "docpad-plugin-eco": "~2.0.3",
     "docpad-plugin-cleanurls": "~2.6.2",
     "docpad-plugin-partials": "~2.8.1",
     "docpad-plugin-text": "~2.3.2",
-    "docpad": "~6.59.6",
+    "docpad": "~6.60.3",
     "docpad-plugin-ghpages": "~2.4.2"
   },
   "main": "node_modules/docpad/bin/docpad-server",

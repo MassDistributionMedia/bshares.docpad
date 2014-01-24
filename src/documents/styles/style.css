@@ -1,8 +1,9 @@
 body {
+    color: #333;
     margin: 0 auto;
     line-height: 1.7em;
     overflow-x:hidden;
-    background: url(https://googledrive.com/host/0B9LVk4xbDIJTOUNoc3BzSF9idzg/bitcoin-stock-02.jpg) no-repeat center -411px;
+    background: url(https://googledrive.com/host/0B9LVk4xbDIJTOUNoc3BzSF9idzg/bitcoin-stock-02.jpg) repeat-y center -411px;
 }
 
 .l-box {
@@ -12,6 +13,21 @@ body {
 .main-cont{
     width:577px;
 }
+
+a{
+    color: #009197;
+    text-decoration: none;
+}
+    a h3{
+        color: #9B850D;
+    }
+
+#accordions li{
+    list-style: none;
+}
+    #accordions h3, #accordions li div a, .no-decor{
+        text-decoration: none !important;
+    }
 
 .header {
     margin: 0 0;
@@ -44,12 +60,20 @@ body {
     .text-left{
         text-align: left;
     }
+    .text-right{
+        text-align: right;
+    }
     .center{
         text-align: center;
     }
     .auto{
         margin: auto;
     }
+
+.testi{
+    margin: 0;
+    font-family: 'Nothing You Could Do', cursive;
+}
 
 .orange-bg{
     background: orange !important;
@@ -97,6 +121,28 @@ body .primary-button {
     border-bottom: 1px solid #eee;
 }
 
+.logo{
+    opacity: 0.444;
+    width: 132px;
+    border: 1px solid #999;
+    padding: 22px 22px 22px 13px;
+    margin: 0;
+    border-bottom-right-radius: 13px;
+    border-top: 8px solid #00E5FF;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.333);
+}
+    .logo:hover{
+        opacity: 0.888;
+    }
+
+.github-ribbon{
+    position: fixed;
+    top: 0;
+    right: 0; 
+    border: 0;
+}
+
 .ribbon {
     background: #eee;
     text-align: center;
@@ -108,19 +154,81 @@ body .primary-button {
         font-weight: normal;
     }
 
-.darkgrey, sub{
-    color: #333;
+.yt-embed{
+    padding: 9px 0 0;
+    border-radius: 13px;
+    background: url(https://googledrive.com/host/0BxIxK0gS2WsvcFRFUHZYQ2J0SnM/hexabump.png);
+}
+    .yt-embed sub{
+        color: #BABABA;
+        padding: 5px 0 19px 0;
+        display: block;
+    }
+
+.yui3-accordion-vert .yui3-accordion-section{
+    overflow: hidden !important;
+}
+
+#skip{
+    color: #333 !important;
+}
+
+.message{
+    margin: 0 auto;
+    border: 1px solid #999;
+    display: block;
+    background: rgba(255, 255, 255, 0.64);
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    padding: 33px;
+    border-top: 8px solid #00E5FF;
+}
+
+.bitcoin-b{
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    margin: -8px 0 0 -12px;
+}
+    #bitcoin-icon{
+        fill: #9B850D;
+    }
+
+.bshare-gold{
+    color: #9B850D;
+}
+    .bitcoin-yt{
+        margin: 0 0 0 4px;
+    }
+
+.op666{
+    opacity: 0.666;
+}
+
+sub .op666:hover{
+    opacity: 0.888;
+}
+
+.testimonial{
+    padding: 0 13px 33px;
+    border: 2px dashed #9B850D;
+    width: 95% !important;
+    border-radius: 9px;
 }
 
 .footer {
-    background: url(https://googledrive.com/host/0B9LVk4xbDIJTOUNoc3BzSF9idzg/signup-icon-1.png) #333;
-    color: #fff;
+    background: rgba(155, 133, 13, 0.76) /* url(https://googledrive.com/host/0B9LVk4xbDIJTOUNoc3BzSF9idzg/signup-icon-1.png) */;
+    color: #e1e1e1;
     text-align: center;
     padding: 1em;
     font-size: 80%;
 }
+    .footer a{
+        color:#fff;
+    }
     .cloudflare-badge{
-        margin: 13px 33px 0 0;
+        margin: 13px 0 0 -111px;
+        position: absolute !important;
     }
 
 ::-webkit-scrollbar{width:17px;background:#fff;}

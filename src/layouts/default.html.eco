@@ -43,6 +43,7 @@
 <!-- Markup -->
 <div class="content pure-g-r">
 	<div class="header pure-u-1">
+		<h1 class="logo"><i>b</i><strong>SHARES</strong></h1>
 
 	<%- @content %>
 
