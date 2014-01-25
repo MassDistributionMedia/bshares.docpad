@@ -13,7 +13,7 @@ body {
     width:577px;
 }
 .b-icon-header{
-    margin: 61px auto -34px;
+    margin: 61px auto -71px 18px;
     display: block;
     text-align: center;
 }
@@ -28,6 +28,17 @@ body {
     }
         .bitcoin-icon path{
             fill: #ABA049;
+        }
+        #bitcoinHeader2{
+            margin: -52px auto 0 8px;
+            width: 100%;
+        }
+        #bitcoinFooter2{
+            margin: -108px auto 0 0px;
+            width: 100%;
+        }
+            #bitcoinIcon2 path{
+                fill: rgba(211, 194, 57, 0.91);
         }
 
 a{
@@ -84,6 +95,9 @@ a{
     }
     .auto{
         margin: auto;
+    }
+    .absolute{
+        position: absolute;
     }
 
 .testi{

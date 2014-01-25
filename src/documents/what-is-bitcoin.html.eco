@@ -13,6 +13,7 @@ title: 'What is Bitcoin?'
 </div> <!-- Main-Menu END -->
 
 <span class="b-icon-header"><%- @getBitcoinSvgBlock('bitcoin3','bitcoinIcon','bitcoin-icon') %></span>
+<span id="bitcoinHeader2" class="b-icon-header absolute"><%- @getBitcoinSvgBlock('bitcoin3','bitcoinIcon2','bitcoin-icon') %></span>
 
 <div id="top" class="pure-u-1-2 center main-cont block auto">
 <br/>
@@ -34,6 +35,7 @@ title: 'What is Bitcoin?'
 	<div class="pure-u-3-5 text-left message">
 	<i class="bshare-gold">b</i><strong class="bshares-green">SHARES</strong> is focusing on educating the average person about bitcoin and investment opportunites in the bitcoin markets. We offer bitcoin consultation as one of our main services so if you have any questions like: "<i><strong class="op666">How do I get my first bitcoin</i>?</strong>", "<i><strong class="op666">How to start accepting bitcoin as payment</i>?</strong>" or "<i><strong class="op666">What are my investment options with bitcoin</i>?</strong>", simply tweet to <a target="_blank" href="https://twitter.com/bshares_co">@bshares_co</a> or call +1-512-920-COIN <sup class="op666">(2646)</sup>
 	</div>
-	<span class="b-icon-footer"><%- @getBitcoinSvgBlock('bitcoin3','bitcoinIcon','bitcoin-icon') %></span>
+	<span class="b-icon-footer"><%- @getBitcoinSvgBlock('bitcoin3','bitcoinIcon3','bitcoin-icon') %></span>
+	<span id="bitcoinFooter2" class="b-icon-header absolute"><%- @getBitcoinSvgBlock('bitcoin3','bitcoinIcon2','bitcoin-icon') %></span>
 	<br/>
 </div>
