@@ -3,21 +3,23 @@ layout: 'default'
 title: 'What is Bitcoin?'
 ---
 
+<!-- Main-Menu fixed top-left menu START -->
 <div id ="whatmenu" class="what-menu">
 	<ul>
 		<li><a href="#top">What is Bitcoin?</a></li>
 		<li><a href="#accordions">Get Cloud Mining!</a></li>
 		<li><a id="storyLink" href="#story">My Bitcoin Story</a></li>
 	</ul>
-</div>
+</div> <!-- Main-Menu END -->
 
+<span class="b-icon-header"><%- @getBitcoinSvgBlock('bitcoin3','bitcoinIcon','bitcoin-icon') %></span>
 
 <div id="top" class="pure-u-1-2 center main-cont block auto">
 <br/>
 <a target="_blank" href="https://github.com/MassDistributionMedia/bshares.docpad"><img class="github-ribbon" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
 <br/>
 <div class="video-header">
-	<h1 class="darkgrey">What is <span class="bitcoin-yt bshare-gold"><%- @partial('bitcoin') %><strong>Bitcoin</strong></span> to begin with?</h1>
+	<h1 class="darkgrey">What is <span class="bitcoin-yt bshare-gold"><strong>Bitcoin</strong></span> to begin with?</h1>
 	<div class="center yt-embed pure-u-1">
 	<iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/LP4GSvQUtBw?rel=0" frameborder="0" allowfullscreen></iframe>
 	<sub>Bitcoin is complex to understand fully but here's a explanation in detail: <a target="_blank" href="http://youtu.be/Lx9zgZCMqXE">youtu.be/Lx9zgZCMqXE</a></sub>
@@ -30,8 +32,8 @@ title: 'What is Bitcoin?'
 </div>
 	<span class="center"><h1 class="logo"><i>b</i><strong>SHARES</strong></h1></span>
 	<div class="pure-u-3-5 text-left message">
-	This website is open-source on <a target="_blank" href="https://github.com/MassDistributionMedia/bshares.docpad">GitHub</a>. <i class="bshare-gold">b</i><strong class="bshares-green">SHARES</strong> is focusing on educating the average person about bitcoin and investment opportunites in the bitcoin markets. We offer bitcoin consultation as one of our main services so if you have any questions like: "<i><strong class="op666">How do I get my first bitcoin</i>?</strong>", "<i><strong class="op666">How to start accepting bitcoin as payment</i>?</strong>" or "<i><strong class="op666">What are my investment options with bitcoin</i>?</strong>", simply tweet to <a target="_blank" href="https://twitter.com/bshares_co">@bshares_co</a> or call +1-512-920-COIN <sup class="op666">(2646)</sup>
+	<i class="bshare-gold">b</i><strong class="bshares-green">SHARES</strong> is focusing on educating the average person about bitcoin and investment opportunites in the bitcoin markets. We offer bitcoin consultation as one of our main services so if you have any questions like: "<i><strong class="op666">How do I get my first bitcoin</i>?</strong>", "<i><strong class="op666">How to start accepting bitcoin as payment</i>?</strong>" or "<i><strong class="op666">What are my investment options with bitcoin</i>?</strong>", simply tweet to <a target="_blank" href="https://twitter.com/bshares_co">@bshares_co</a> or call +1-512-920-COIN <sup class="op666">(2646)</sup>
 	</div>
-	<p class="center">Cheers!</p>
+	<span class="b-icon-footer"><%- @getBitcoinSvgBlock('bitcoin3','bitcoinIcon','bitcoin-icon') %></span>
 	<br/>
 </div>

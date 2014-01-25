@@ -3,7 +3,7 @@ body {
     margin: 0 auto;
     line-height: 1.7em;
     overflow-x:hidden;
-    background: url(https://googledrive.com/host/0B9LVk4xbDIJTOUNoc3BzSF9idzg/bitcoin-stock-02.jpg) repeat-y center -411px;
+    background: url(https://googledrive.com/host/0B9LVk4xbDIJTOUNoc3BzSF9idzg/bitcoin-stock-02.jpg) repeat-y center -101px;
 }
 
 .l-box {
@@ -13,6 +13,23 @@ body {
 .main-cont{
     width:577px;
 }
+.b-icon-header{
+    margin: 61px auto -34px;
+    display: block;
+    text-align: center;
+}
+    .b-icon-footer{
+        margin: 33px auto -16px;
+        display: block;
+        text-align: center;
+    }
+    .bitcoin-icon{
+        width: 113px;
+        height: 113px;
+    }
+        .bitcoin-icon path{
+            fill: #ABA049;
+        }
 
 a{
     color: #009197;
@@ -160,10 +177,14 @@ body .primary-button {
         .what-menu li:hover{
             opacity: 1;
         }
-        .what-menu li a:hover{
-            color: #13754D;
+        .what-menu li a{
             font-weight: bold;
+            color: #1E3E1F;
         }
+            .what-menu li a:hover{
+                color: #13754D;
+                font-weight: bold;
+            }
 
 #headerLogo{
     opacity: 0.444;

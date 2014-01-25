@@ -60,7 +60,7 @@
 		</script>
 		</span>
 		&copy;<%- (new Date()).getFullYear() %> bSHARES.co <br/>
-		updated <%= @site.date.toISOString() %> - <a href="http://bshares.co/privacy/">Privacy</a>
+		updated <%= @site.date.toISOString() %> - <a href="http://bshares.co/privacy/">Privacy</a> - <a target="_blank" href="https://github.com/MassDistributionMedia/bshares.docpad">GitHub</a>
 	</div>
 </div>
 
