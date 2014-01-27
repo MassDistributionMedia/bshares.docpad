@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>bSHARES.co</title>
+	<link href="http://bshares.co/atom.xml" rel="self"/>
+	<link href="http://bshares.co"/>
+	<updated>2014-01-27T07:02:21.521Z</updated>
+	<id>http://bshares.co</id>
+	<author>
+		<name>Michael Duane Mooring</name>
+		<email>mike@mdm.cm</email>
+	</author>
+
+	
+</feed>
