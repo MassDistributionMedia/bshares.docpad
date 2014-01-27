@@ -3,6 +3,10 @@ layout: 'default'
 title: 'What is Bitcoin?'
 ---
 
+<!--[if IE]>
+<![endif]-->
+
+
 <!-- Main-Menu fixed top-left menu START -->
 <div id ="whatmenu" class="what-menu">
 	<ul>
