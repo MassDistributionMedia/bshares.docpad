@@ -3,9 +3,14 @@
   "version": "0.0.1",
   "description": "",
   "keywords": [
-    "docpad", "website",
-    "purecss", "yui purecss",
-    "bitcoin", "bitcoin exchange", "learn bitcoin", "invest bitcoin"
+    "docpad",
+    "website",
+    "purecss",
+    "yui purecss",
+    "bitcoin",
+    "bitcoin exchange",
+    "learn bitcoin",
+    "invest bitcoin"
   ],
   "author": "Mass Distribution Media <mike@mdm.cm> (http://mdm.cm)",
   "maintainers": [
@@ -26,15 +31,15 @@
     "npm": "1.2"
   },
   "dependencies": {
-    "docpad": "6.x",
-    "docpad-plugin-cleanurls": "2.x",
-    "docpad-plugin-coffeescript": "2.x",
-    "docpad-plugin-eco": "2.x",
-    "docpad-plugin-marked": "2.x",
-    "docpad-plugin-partials": "2.x",
-    "docpad-plugin-text": "2.x",
-    "docpad-plugin-bitcoinsvg": "2.x",
-    "docpad-plugin-hapi": "2.x"
+    "docpad": "~6.63.0",
+    "docpad-plugin-cleanurls": "~2.6.2",
+    "docpad-plugin-coffeescript": "~2.2.3",
+    "docpad-plugin-eco": "~2.0.3",
+    "docpad-plugin-marked": "~2.2.0",
+    "docpad-plugin-partials": "~2.8.1",
+    "docpad-plugin-text": "~2.3.2",
+    "docpad-plugin-bitcoinsvg": "~2.0.1",
+    "docpad-plugin-hapi": "~2.3.0"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.5.6",
@@ -45,7 +50,7 @@
     "docpad-plugin-partials": "~2.8.1",
     "docpad-plugin-text": "~2.3.2",
     "docpad": "~6.60.3",
-    "docpad-plugin-ghpages": "~2.4.2"
+    "docpad-plugin-ghpages": "~2.4.3"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
